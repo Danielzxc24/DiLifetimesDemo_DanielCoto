@@ -1,0 +1,53 @@
+[
+  {
+    "ContainingType": "DiLifetimesDemo_DanielCoto.Controllers.DiagnosticsController",
+    "Method": "GetLifetimes",
+    "RelativePath": "api/Diagnostics/lifetimes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DiLifetimesDemo_DanielCoto.Controllers.ScopesController",
+    "Method": "CompareScopes",
+    "RelativePath": "api/Scopes/compare",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DiLifetimesDemo_DanielCoto.Controllers.SingletonsController",
+    "Method": "GetSafeScopedFromSingleton",
+    "RelativePath": "api/Singletons/safe-scoped",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DiLifetimesDemo_DanielCoto.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DiLifetimesDemo_DanielCoto.WeatherForecast, DiLifetimesDemo_DanielCoto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

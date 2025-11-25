@@ -1,0 +1,6 @@
+@DiLifetimesDemo_DanielCoto_HostAddress = http://localhost:5279
+
+GET {{DiLifetimesDemo_DanielCoto_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
